@@ -92,6 +92,8 @@ arm-none-eabi-gcc --version
 
 - Chinese (Simplified) (简体中文)
 
+- Clang-Format（规范格式）
+
   
   
   
