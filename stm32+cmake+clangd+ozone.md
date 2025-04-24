@@ -316,7 +316,8 @@ arm-none-eabi-objcopy -O ihex led_blink.elf led_blink.bin   #转换为hex文件
                     "shellPath": "E:/Git/bin/bash.exe"   
                 }
             }
-      
+        },
+        
     ]
 }
 ```
