@@ -1,0 +1,7 @@
+{
+  "clangd.arguments": [
+    // "--query-driver=C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe",  // 指定编译器路径
+    "--query-driver=C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-g++.exe",
+    "--clang-tidy"
+  ]
+}

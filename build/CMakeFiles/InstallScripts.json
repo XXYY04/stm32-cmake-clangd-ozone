@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/X/Desktop/STM_Link/build/cmake_install.cmake",
+		"C:/Users/X/Desktop/STM_Link/build/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

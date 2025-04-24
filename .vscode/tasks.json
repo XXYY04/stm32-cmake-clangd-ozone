@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "./run.sh",         //这里是你的烧录脚本文件
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "E:/Git/Git/bin/bash.exe",    //git Bash的位置
+                    "args": ["-l", "-i"]
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "terminal": {
+                    "name": "Git Bash",
+                    "shellPath": "E:/Git/Git/bin/bash.exe"   
+                }
+            }
+        },
+        
+    ]
+}

@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi          # 指定目标架构
+    - -IC:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include  # ARM-GCC头文件路径
+    - -IC:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include  # GCC库头文件
+  CompilationDatabase: .              # 指向compile_commands.json
