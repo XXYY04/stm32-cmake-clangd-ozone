@@ -351,7 +351,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 #### 1.这个必须要添加，不然clangd会错误。
 
 1. ```
-   ./vscode/setting.json
+   ./vscode/settings.json
    ```
 
    > 在这个文件里可以自行修改编译器路径，以下为示例（如果不懂如何配置，照搬即可，即在`C`盘下创建`Tooclchain`文件夹，再将解压后的编译器放到这个文件夹中即可）
